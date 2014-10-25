@@ -23,8 +23,8 @@
   "dependencies": {
     "polymer": "Polymer/polymer#~0.4.1",
     "purr-polymer": "~0.0.2",
-    "app-router": "~1.0.0",
+    "app-router": "~2.0.2",
     "resource-service": "~0.0.0",
-    "http-service": "~0.0.4"
+    "http-service": "~0.0.5"
   }
 }
