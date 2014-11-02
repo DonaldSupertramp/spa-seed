@@ -1,6 +1,3 @@
-//@prepros-prepend bower_components/http-service//http.service.js
-//@prepros-prepend services/resource.service.js
-//@prepros-prepend services/toolkit.service.js
 
 /**
  * Wraps service & element instances as well as initialization methods in a global accessible object
@@ -10,7 +7,7 @@ var $http = HttpModule.init();
 
 var App = {
 
-    resource: new ResourceService('https://quac.triangulum.uberspace.de/quac-api/api'),
+    resource: new ResourceService('http://localhost:0000'),
     toolkit: new Toolkit(),
 
     router: null,

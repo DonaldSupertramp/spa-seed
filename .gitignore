@@ -1,7 +1,10 @@
 # Created by .gitignore support plugin (hsz.mobi)
 ### JetBrains template
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
-
+node_modules
+server/credentials
+server/node_modules
+bower_components
 ## Directory-based project format
 .idea/
 /*.iml

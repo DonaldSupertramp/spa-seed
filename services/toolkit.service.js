@@ -25,7 +25,7 @@ function Toolkit(){
             var mm = today.getMonth()+1; //January is 0!
 
             var yyyy = today.getFullYear();
-            if(dd<10){dd='0'+dd} if(mm<10){mm='0'+mm} today = yyyy +'-'+ mm+'-'+dd;
+            if(dd<10){dd='0'+dd;} if(mm<10){mm='0'+mm;} today = yyyy +'-'+ mm+'-'+dd;
 
             if(altFormat){
                 today = today.replace(/-/g, '.');
@@ -88,7 +88,7 @@ function Toolkit(){
             for (var element in list){
 
                 if(list[element].hasOwnProperty('isChecked')){
-                    if(list[element].isChecked == true){
+                    if(list[element].isChecked === true){
                         checkedElements.push(list[element].ident || list[element].informations.identnumber);
                     }
                 }
