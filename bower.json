@@ -1,10 +1,10 @@
 {
   "name": "spa-seed",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "authors": [
     "Jan Schreyer <sprottenwels@googlemail.com>"
   ],
-  "description": "Bootstrapping a web-component based SPA with Polymer",
+  "description": "Bootstrapping a web-component based SPA with Polymer. Grunt included",
   "keywords": [
     "Web-Component",
     "SPA",
