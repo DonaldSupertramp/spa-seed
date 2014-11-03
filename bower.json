@@ -1,6 +1,6 @@
 {
   "name": "spa-seed",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "authors": [
     "Jan Schreyer <sprottenwels@googlemail.com>"
   ],
@@ -21,10 +21,10 @@
     "tests"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#~0.4.1",
+    "polymer": "Polymer/polymer#~0.4.2",
     "purr-polymer": "~0.0.2",
     "app-router": "~2.0.2",
-    "resource-service": "~0.0.0",
+    "resource-service": "~0.0.1",
     "http-service": "~0.0.5"
   }
 }
