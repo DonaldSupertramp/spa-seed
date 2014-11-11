@@ -1,11 +1,12 @@
 module.exports = function(grunt) {
 
     grunt.initConfig({
-        jshint: ['app.js','services/*.js','server/*.js','server/*/*.js','pages/*/*.js','components/*/*.js'],
+        jshint: ['app.js','services/*.js','server/*.js','server/*/*.js','pages/*/*.js'],
         concat: { js: {files: { 'min/app.js': [
             'services/*.js',
             'bower_components/html5-history-anchor/html5-history-anchor.js',
             'bower_components/http-service/http.service.js',
+            'bower_components/resource-service/resource.service.js',
             'app.js'
         ]}}},
         watch: {
@@ -13,15 +14,13 @@ module.exports = function(grunt) {
                 files: [
                     'services/*.js',
                     'pages/*//*.js',
-                    'components/**//*.js',
                     'bower_components/html5-history-anchor/html5-history-anchor.js',
                     'bower_components/http-service/http.service.js',
                     'app.js'
                 ],
                 tasks: ['concat'],
                 options: {
-                    spawn: false,
-                    livereload:true
+                    spawn: false
                 }
             }
         }

@@ -3,5 +3,4 @@
 
 guard 'livereload' do
   watch(%r{pages/*.+\.(css|js|html)})
-  watch(%r{components/*.+\.(css|js|html)})
 end
