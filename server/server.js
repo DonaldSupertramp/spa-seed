@@ -2,12 +2,14 @@ var express     = require('express');
 var url         = require('url');
 var mongoose    = require('mongoose');
 var bodyParser  = require('body-parser');
-var credentials = require('./credentials/creds.js');
-var Chapter     = require('./models/chapter.js');
-var user        = require('./users/users.js');
 var formidable  = require('formidable');
 var cors        = require('cors');
 
+var credentials = require('./credentials/creds.js');
+
+var Chapter     = require('./models/chapter.js');
+
+var user        = require('./users/users.js');
 
 var app = express();
 
