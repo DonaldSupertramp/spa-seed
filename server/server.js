@@ -1,15 +1,9 @@
 var express     = require('express');
-var url         = require('url');
 var mongoose    = require('mongoose');
 var bodyParser  = require('body-parser');
-var formidable  = require('formidable');
 var cors        = require('cors');
 
 var credentials = require('./credentials/creds.js');
-
-var Chapter     = require('./models/chapter.js');
-
-var user        = require('./users/users.js');
 
 var app = express();
 
@@ -35,7 +29,8 @@ router.route('/')
 
     });
 
-app.use('/api', router);
+app.use('/', router);
 
 app.listen(port);
+
 console.log('Server listening at port ' + port);
