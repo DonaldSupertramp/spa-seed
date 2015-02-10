@@ -1,8 +1,8 @@
 {
   "name": "spa-seed",
-  "version": "0.0.9",
+  "version": "0.0.1",
   "authors": [
-    "Jan Schreyer <sprottenwels@googlemail.com>"
+    "<donald.supertramp@gmail.com>"
   ],
   "description": "Bootstrapping a web-component based SPA with Polymer",
   "keywords": [
@@ -12,7 +12,6 @@
     "seed"
   ],
   "license": "MIT",
-  "homepage": "http://github.com/Sprottenwels/spa-seed",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -21,8 +20,8 @@
     "tests"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#~0.4.2",
+    "polymer": "Polymer/polymer#~0.5.4",
     "traceur": "*",
-    "app-router": "~2.0.2"
+    "app-router": "~2.4.0"
   }
 }
